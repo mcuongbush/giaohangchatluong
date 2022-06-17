@@ -287,7 +287,6 @@ async function getDistance (AddrFrom,AddrTo) {
     var formattedAddrTo = AddrTo.replace(/ /g,'+');
     var distance;
     // Google API key
-    var apiKey = 'AIzaSyBOLntCBtIk2NdgzxM3GqG-ZK1GfxGosNk';
     
 
     var dirFrom = "https://maps.googleapis.com/maps/api/geocode/json?address=" + formattedAddrFrom + "&sensor=false&key="+ apiKey ;
